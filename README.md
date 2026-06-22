@@ -17,19 +17,23 @@ Incluye la lógica principal del juego, validación de jugadas y verificación d
 
 ## Compilación
 
-Opción 1 (VS Code Task):
-- Ejecutar la tarea **Compilar proyecto**.
-
-Opción 2 (Makefile):
-- En terminal, ejecutar:
+Si tienes `g++` instalado, puedes compilar con:
 
 ```bash
-make
+g++ *.cpp -o output/main.exe
 ```
 
 ## Ejecución
 
-Después de compilar, ejecutar el binario generado y seguir las instrucciones en consola para jugar.
+Luego de compilar, ejecuta el programa con:
+
+```bash
+output/main.exe
+```
+
+## Nota
+
+En este proyecto también se usa un archivo `tasks.json` de VS Code para automatizar la compilación desde el editor.
 
 ## Objetivo académico
 
