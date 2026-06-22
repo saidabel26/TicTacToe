@@ -34,10 +34,3 @@ output/main.exe
 ## Nota
 
 En este proyecto también se usa un archivo `tasks.json` de VS Code para automatizar la compilación desde el editor.
-
-## Objetivo académico
-
-Aplicar conceptos de:
-- Modularización en C++.
-- Manejo de funciones y archivos de cabecera.
-- Lógica de control de juego por turnos.
